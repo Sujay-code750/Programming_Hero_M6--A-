@@ -1,2 +1,13 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    font-family: "Manrope", sans-serif;
+}
+
+/* index.css বা global.css */
+.primaryGradient {
+  background: linear-gradient(to right, #4F39F6, #9514FA);
+}
